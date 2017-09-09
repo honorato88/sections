@@ -14,6 +14,7 @@ public class Extract {
 				new FileReader("C:\\Users\\MarcosFelipe\\Desktop\\Fall2017firstMonday.txt"));
 		String outputFolder = "C:\\Users\\MarcosFelipe\\Desktop\\out.txt";
 		ArrayList<String> a = new ArrayList<>();
+		//2
 		PrintWriter writer = new PrintWriter(outputFolder);
 		try {
 			StringBuilder sb = new StringBuilder();
