@@ -12,7 +12,7 @@ public class Extract {
 	public void extractData() throws IOException {
 		BufferedReader br = new BufferedReader(
 				new FileReader("C:\\Users\\MarcosFelipe\\Desktop\\Fall2017firstMonday.txt"));
-		String outputFolder = "C:\\Users\\MarcosFelipe\\Desktop\\out.txtt";
+		String outputFolder = "C:\\Users\\MarcosFelipe\\Desktop\\out.txt";
 		ArrayList<String> a = new ArrayList<>();
 		PrintWriter writer = new PrintWriter(outputFolder);
 		try {
